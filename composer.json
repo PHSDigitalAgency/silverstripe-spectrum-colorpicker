@@ -3,6 +3,7 @@
     "type": "silverstripe-module",
     "description": "Silvertripe colorpicker field based on Spectrum colorpicker.",
     "keywords": ["silverstripe", "field", "colorpicker", "spectrum"],
+    "homepage": "https://github.com/PHSDigitalAgency/silverstripe-spectrum-colorpicker/",
     "require": {
         "silverstripe/framework": ">=3.0"
     },
