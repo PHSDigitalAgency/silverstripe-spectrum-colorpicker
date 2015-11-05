@@ -1,0 +1,25 @@
+{
+  "name": "silverstripe-spectrum-colorpicker",
+  "version": "0.0.1",
+  "authors": [
+    "Yves Trublin <yves@phsvietnam.com>"
+  ],
+  "description": "Silverstripe colorpicker field based on Spectrum colorpicker.",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "silverstripe",
+    "colorpicker",
+    "spectrum"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.phsvietnam.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
