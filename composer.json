@@ -1,0 +1,14 @@
+{
+    "name": "phs/silverstripe-spectrum-colorpicker",
+    "description": "Silvertripe colorpicker field based on Spectrum colorpicker.",
+    "require": {
+        "silverstripe/framework": ">=3.0"
+    },
+    "authors": [
+        {
+            "name": "yves",
+            "email": "yves@phsvietnam.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
