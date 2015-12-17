@@ -2,7 +2,7 @@
 
 class ColorpickerField extends TextField
 {
-  /**
+    /**
    * Spectrum Colorpicker Options
    */
   // 'color' => false,
@@ -38,29 +38,28 @@ class ColorpickerField extends TextField
 
   public function __construct($name, $title = null, $value = '', $form = null)
   {
-    parent::__construct($name, $title, $value);
+      parent::__construct($name, $title, $value);
   }
 
-  public function Field($properties = array())
-  {
-    $this->addExtraClass('spectrum-colorpickerfield');
+    public function Field($properties = array())
+    {
+        $this->addExtraClass('spectrum-colorpickerfield');
 
-    Requirements::css(SPECTRUM_COLORPICKER_DIR . '/bower_components/spectrum/spectrum.css');
-    Requirements::javascript(FRAMEWORK_DIR . '/thirdparty/jquery/jquery.js');
-    Requirements::javascript(SPECTRUM_COLORPICKER_DIR . '/bower_components/spectrum/spectrum.js');
-    Requirements::javascript(SPECTRUM_COLORPICKER_DIR . '/javascript/colorpicker.js');
+        Requirements::css(SPECTRUM_COLORPICKER_DIR . '/bower_components/spectrum/spectrum.css');
+        Requirements::javascript(FRAMEWORK_DIR . '/thirdparty/jquery/jquery.js');
+        Requirements::javascript(SPECTRUM_COLORPICKER_DIR . '/bower_components/spectrum/spectrum.js');
+        Requirements::javascript(SPECTRUM_COLORPICKER_DIR . '/javascript/colorpicker.js');
 
-    return parent::Field($properties);
-  }
+        return parent::Field($properties);
+    }
 
-  public function setOptions($options = array())
-  {
-    $this->setAttribute('data-spectrum-options', json_encode($options));
-  }
+    public function setOptions($options = array())
+    {
+        $this->setAttribute('data-spectrum-options', json_encode($options));
+    }
 
-  public function setColorMode()
-  {
-    $this->attributes['type'] = 'color';
-  }
-
+    public function setColorMode()
+    {
+        $this->attributes['type'] = 'color';
+    }
 }
