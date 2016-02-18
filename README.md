@@ -1,3 +1,6 @@
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/PHSDigitalAgency/silverstripe-spectrum-colorpicker/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/PHSDigitalAgency/silverstripe-spectrum-colorpicker/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/PHSDigitalAgency/silverstripe-spectrum-colorpicker/badges/build.png?b=master)](https://scrutinizer-ci.com/g/PHSDigitalAgency/silverstripe-spectrum-colorpicker/build-status/master)
+
 # Silverstripe Spectrum Colorpicker
 Yet another custom colorpicker field for Silverstripe based on Spectrum colorpicker (https://github.com/bgrins/spectrum).
 
