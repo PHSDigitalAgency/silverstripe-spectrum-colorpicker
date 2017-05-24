@@ -6,7 +6,9 @@
 
 				if(self.attr('type') !== 'color') {
 					var options = $.extend(self.data('spectrum-options'), {change: function(c) {
-						if(c === null || c._a === 0) {
+						if( c === null ){
+							self.val('');
+						}else if( c._a === 0) {
 							self.val('transparent');
 						} else if(c._a === 1) {
 							self.val(c.toHexString());
